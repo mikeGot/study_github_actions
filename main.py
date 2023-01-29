@@ -1,5 +1,6 @@
 def hello(name: str):
-    return f"hello {}!"
+    return f"hello {name}!"
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     hello(1)
